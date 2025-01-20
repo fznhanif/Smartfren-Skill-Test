@@ -3,7 +3,7 @@ Berikut adalah user guide:
 - Telah dikerjakan test skill untuk Smartfren atas nama kandidat Fauzan Hanif pelamar sebagai Data Scientist.
 - Dokumentasi ini menjelaskan struktur direktori utama dan panduan penggunaan fokus pada file pipeline.py dan aplikasi berbasis Streamlit yaitu app.py.
 
-Smartfren/
+Smartfren-Skill-Test/
 ├── src/
 │   ├── pipeline.py  # Logika pemrosesan data utama
 │   ├── app.py       # Aplikasi berbasis Streamlit untuk antarmuka pengguna
