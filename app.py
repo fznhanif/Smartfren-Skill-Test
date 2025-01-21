@@ -206,6 +206,7 @@ elif menu == "Prediksi & Visualisasi":
             # Prediksi dengan model regresi
             st.write("Melakukan prediksi...")
             Y_pred = regression_model.predict(X_test_pca)
+            st.text_area('Penjelasan Model',"Model yang digunakan adalah Random Forest dengan alasan yang sudah dijabarkan pada bagian analisis data. kemudian digunakan juga multioutputregressor agar tujuan multi target tercapai secara otomatis. kemudian sebelum melakukan modeling, dilakukan PCA pada data train kemudian dibagi train_test_split untuk mengukur validasi model secara keseluruhan. pada proses sebelumnya sudah dilakukan juga Kfold dan CV pada model yang digunakan agar mendapatkan gambaran validasi yaitu sekitar di 3% (bisa dicek pada notebook 03_Modeling)")
             
             # Evaluasi model
             from sklearn.metrics import mean_absolute_percentage_error
